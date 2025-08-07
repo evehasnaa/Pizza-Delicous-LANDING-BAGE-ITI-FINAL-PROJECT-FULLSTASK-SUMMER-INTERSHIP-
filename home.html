@@ -28,10 +28,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <!-- OR Great Vibes -->
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <!-- مكتبة الانيميشن الخاصة بالبوتسراب
+   <!--- مكتبة الانيميشن الخاصة بالبوتسراب -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
--->
+
     <!-- ملف التنسيق الخاص بك -->
     <link rel="stylesheet" href="css/st-home.css">
 
@@ -39,8 +39,8 @@
 
 <body>
     <!--navbar design-->
-    <nav class="navbar navbar-expand-lg navbar-expand-md   navbar-dark bg-dark text-wight fixed-top">
-        <div class="container-fluid d-flex justify-content-center ps-5 pe-5">
+    <nav class="navbar navbar-expand-lg navbar-expand-md   navbar-dark bg-dark text-wight fixed-top ">
+        <div class="container-fluid d-flex justify-content-center ps-5 pe-5 ">
 
             <div class=" d-flex  container-fluid" id="menueId">
                 <a class="navbar-brand" href="#home">
@@ -75,15 +75,17 @@
 
     <!---hero section -->
     <!----carousel section -->
-    <section class=" py-5">
+    <section class=" py-5 mt-5 bg-dark  " >
         <div class="owl-carousel owl-theme ">
             <!-- الشريحة الأولى: خلفية خشبية، محتوى نصي مركزي -->
-            <div class="slider-item slider-item-bg-wood" style="background-image: url('image/b.jpg');" data-aos="fade-up">
+            <div class="slider-item slider-item-bg-wood " style="background-image: url('image/b.jpg') ; "
+                data-aos="fade-up">
                 <div class="overlay"></div> <!-- طبقة شفافة لجعل النص واضحًا -->
                 <div class="container">
-                    <div class="row slider-text justify-content-center align-items-center " data-scrollax-parent="true" >
-                        <div class="col-md-7 col-sm-12 text-center ftco-animate fadeInUp ftco-animated" data-aos="zoom-in">
-                            <span class="subheading text-warning font-poppins " >Welcome</span>
+                    <div class="row slider-text justify-content-center align-items-center " data-scrollax-parent="true">
+                        <div class="col-md-7 col-sm-12 text-center ftco-animate fadeInUp ftco-animated"
+                            data-aos="zoom-in">
+                            <span class="subheading text-warning  ">Welcome</span>
                             <h1 class="mb-4  " style="font-size: 3rem;">We cooked your desired Pizza Recipe</h1>
                             <p class="mb-2 mb-md-5 sub-text" style="font-size: 1rem;">A small river named Duden flows by
                                 their place and
@@ -91,7 +93,8 @@
                                 the necessary regelialia.</p>
                             <p class="d-inline">
                                 <a href="#contact" class="btn btn-primary order-btn p-3  px-xl-4 py-xl-3">Order Now</a>
-                                <a href="#menue" class="btn btn-white menu-btn p-3 px-xl-4 py-xl-3">View
+                                <a href="#menue"
+                                    class="btn btn-white menu-btn btn-bs-warning-border-subtle p-3 px-xl-4 py-xl-3">View
                                     Menu
                                 </a>
                             </p>
@@ -110,11 +113,13 @@
                             <span class="subheading text-warning d-flex">Crunchy</span>
                             <h1 class="mb-4 text-start">Italian Pizza</h1>
                             <p class="mb-4 mb-md-5 sub-text text-start">A small river named Duden flows by their place
+                                <br>
                                 and supplies it with
-                                the necessary regelialia.</p>
+                                the necessary regelialia.
+                            </p>
                             <p class="d-flex gap-2">
                                 <a href="#contact" class="btn btn-primary order-btn p-3  px-xl-4 py-xl-3">Order Now</a>
-                                <a href="#menue" class="btn btn-white menu-btn p-3 px-xl-4 py-xl-3">View
+                                <a href="#menue" class="btn btn-white menu-btn  p-3 px-xl-4 py-xl-3">View
                                     Menu
                                 </a>
                             </p>
@@ -139,9 +144,11 @@
                         <div class="col-md-6 col-sm-12 ftco-animate fadeInUp ftco-animated  ">
                             <span class="subheading text-warning d-flex ">Delicious</span>
                             <h1 class="mb-4 text-start">Italian Cuizine</h1>
-                            <p class="mb-4 mb-md-5 sub-text text-start">A small river named Duden flows by their place
+                            <p class="mb-5 mb-md-5 sub-text text-start">A small river named Duden flows by their place
+                                <br>
                                 and supplies it with
-                                the necessary regelialia.</p>
+                                the necessary regelialia.
+                            </p>
                             <p class="d-inline d-flex gap-2">
                                 <a href="#contact" class="btn btn-primary order-btn p-3  px-xl-4 py-xl-3">Order Now</a>
                                 <a href="#menue" class="btn btn-white menu-btn p-3 px-xl-4 py-xl-3">View
@@ -163,6 +170,142 @@
 
 
     </section>
+
+
+    <!--end of hero section -->
+    <!-- Contact section -->
+    <section class="contact-section" data-aos="fade-up" data-aos-delay="delay=200">
+        <div class="container-fluid bg-dark">
+            <div class="row">
+                <!-- Phone -->
+                <div class="col-md-3 col-12 col-sm-12" data-aos="fade-left" data-aos-delay="delay=400">
+                    <div class="contact-box">
+                        <div class="contact-content">
+                            <div class="contact-title">
+                                <i class="fa-solid fa-phone-volume text-warning contact-icon"></i>
+                                <span class="contact-heading">000 (123) 456 7890</span>
+                            </div>
+                            <div class="contact-subtitle">
+                                A small river named<br>Duden flows
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <div class="col-md-3 col-12 col-sm-12" data-aos="fade-left" data-aos-delay="delay=400">
+                    <div class="contact-box">
+                        <div class="contact-content">
+                            <div class="contact-title">
+                                <i class="fa-solid fa-location-crosshairs text-warning contact-icon"></i>
+                                <span class="contact-heading">198 West 21th Street</span>
+                            </div>
+                            <div class="contact-subtitle">
+                                Suite 721 New York NY 10016
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hours -->
+                <div class="col-md-3 col-12 col-sm-12" data-aos="fade-left" data-aos-delay="delay=400" >
+                    <div class="contact-box">
+                        <div class="contact-content">
+                            <div class="contact-title">
+                                <i class="fa-solid fa-clock-rotate-left text-warning contact-icon"></i>
+                                <span class="contact-heading">Open Monday-Friday</span>
+                            </div>
+                            <div class="contact-subtitle">
+                                8:00am - 9:00pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Media -->
+                <div class="col-md-3 col-sm-12 bg-warning">
+                    <div class="social-box">
+                        <div class="social-icon"><i class="fa-brands fa-facebook-f fs-5"></i></div>
+                        <div class="social-icon"><i class="fa-brands fa-twitter fs-5"></i></div>
+                        <div class="social-icon"><i class="fa-brands fa-instagram fs-5"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------end of contact section---------------------->
+
+    <!----start of table section---->
+
+    <section section class="welcome-section">
+        <div class="">
+            <div class="row">
+                <div class="col-md-6 col-sm-12"
+                    style="background-image: url('image/Bi.png'); background-size: cover; background-repeat: no-repeat; ">
+
+                </div>
+                <div class="container col-md-6 bg-dark py-5 px-5 col-sm-12">
+                    <div class="head">
+                        <h1 class="fs-2 text-light">Welcome to <span><i
+                                    class="fa-solid fa-pizza text-warning"></i></span>
+                            <span class="text-warning">Pizza</span> A Restaurant
+                        </h1>
+                    </div>
+                    <div class="text lead text-secondary text-start pt-3 fs-6">
+                        On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
+                        would have been rewritten a thousand times and everything that was left from its origin would be
+                        the word "and" and the Little Blind Text should turn around and return to its own, safe country.
+                        But nothing the copy said could convince her and so it didn’t take long until a few insidious
+                        Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
+                        agency, where they abused her for their.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!----end of table section---->
+<!----start of service section---->
+
+
+<section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- jQuery أولاً -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
@@ -174,6 +317,15 @@
 
     <!-- إذا كان لديكِ كود خاص لتشغيل السلايدر، يكون هنا -->
     <script src="js/index.js"></script>
+<!---animation liblary-->
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+
 </body>
 
 </html>
