@@ -28,54 +28,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <!-- OR Great Vibes -->
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-   <!--- مكتبة الانيميشن الخاصة بالبوتسراب -->
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <!--- مكتبة الانيميشن الخاصة بالبوتسراب -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
     <!-- ملف التنسيق الخاص بك -->
     <link rel="stylesheet" href="css/st-home.css">
+    <link rel="stylesheet" href="css/st-menue.css">
 
 </head>
 
 <body>
-    <!--navbar design-->
-    <nav class="navbar navbar-expand-lg navbar-expand-md   navbar-dark bg-dark text-wight fixed-top ">
-        <div class="container-fluid d-flex justify-content-center ps-5 pe-5 ">
-
-            <div class=" d-flex  container-fluid" id="menueId">
-                <a class="navbar-brand" href="#home">
-                    <i class="fas fa-pizza-slice"></i>
-                    <span>Pizza</span> <br>
-                    <small>Delicous</small>
-                </a>
-                <!-- النافبار كامل (يظهر في شاشات كبيرة) -->
-                <button class="navbar-toggler d-md-none ms-auto " type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon  "> </span> <!-- هنا الـ Hamburger Icon -->
-                    <span> MENU</span>
-                </button>
-
-            </div>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav  ms-auto  mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#menue">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#srvices">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid d-flex justify-content-center ps-5 pe-5">
+    <a class="navbar-brand" href="home.html">
+      <i class="fas fa-pizza-slice"></i>
+      <span>Pizza</span> <br>
+      <small>Delicous</small>
+    </a>
+    <button class="navbar-toggler d-md-none ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span> MENU</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="menue.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <!--end of navbar design-->
 
     <!---hero section -->
     <!----carousel section -->
-    <section class=" py-5 mt-5 bg-dark  " >
+    <section class=" py-5 mt-5 bg-dark  ">
         <div class="owl-carousel owl-theme ">
             <!-- الشريحة الأولى: خلفية خشبية، محتوى نصي مركزي -->
             <div class="slider-item slider-item-bg-wood " style="background-image: url('image/b.jpg') ; "
@@ -174,11 +166,11 @@
 
     <!--end of hero section -->
     <!-- Contact section -->
-    <section class="contact-section" data-aos="fade-up" data-aos-delay="delay=200">
+    <section class="contact-section">
         <div class="container-fluid bg-dark">
             <div class="row">
                 <!-- Phone -->
-                <div class="col-md-3 col-12 col-sm-12" data-aos="fade-left" data-aos-delay="delay=400">
+                <div class="col-md-3 col-12 col-sm-12" data-aos="fade-left" data-aos-delay="400">
                     <div class="contact-box">
                         <div class="contact-content">
                             <div class="contact-title">
@@ -193,7 +185,7 @@
                 </div>
 
                 <!-- Address -->
-                <div class="col-md-3 col-12 col-sm-12" data-aos="fade-left" data-aos-delay="delay=400">
+                <div class="col-md-3 col-12 col-sm-12" data-aos="fade-left" data-aos-delay="400">
                     <div class="contact-box">
                         <div class="contact-content">
                             <div class="contact-title">
@@ -208,7 +200,7 @@
                 </div>
 
                 <!-- Hours -->
-                <div class="col-md-3 col-12 col-sm-12" data-aos="fade-left" data-aos-delay="delay=400" >
+                <div class="col-md-3 col-12 col-sm-12" data-aos="fade-left" data-aos-delay="400">
                     <div class="contact-box">
                         <div class="contact-content">
                             <div class="contact-title">
@@ -223,7 +215,7 @@
                 </div>
 
                 <!-- Social Media -->
-                <div class="col-md-3 col-sm-12 bg-warning">
+                <div class="col-md-3 col-sm-12 bg-warning" data-aos-delay="400">
                     <div class="social-box">
                         <div class="social-icon"><i class="fa-brands fa-facebook-f fs-5"></i></div>
                         <div class="social-icon"><i class="fa-brands fa-twitter fs-5"></i></div>
@@ -268,34 +260,889 @@
 
 
 
-<!----end of table section---->
-<!----start of service section---->
+    <!----end of table section---->
+    <!----start of service section---->
 
 
-<section>
+    <section class="services-section" data-aos="fade-up" data-aos-duration="800">
+        <div class="services-bg"
+            style="background-image: url(image/ton.png); background-size: cover; background-repeat: no-repeat;">
+            <div class="container py-5">
+                <!-- العنوان والوصف -->
+                <div class="text p-3 mb-5" data-aos="fade-up">
+                    <div class="head text-center fs-1 fw-bold mb-3" data-aos="fade-up" data-aos-delay="100">
+                        Our Services
+                    </div>
+                    <div class="bar text-center fs-5 text-secondary mb-5" data-aos="fade-up" data-aos-delay="200">
+                        Far far away, behind the word mountains, far from the countries Vokalia and <br
+                            class="d-none d-md-block">
+                        Consonantia, there live the blind texts.
+                    </div>
+                </div>
+
+                <!-- الخدمات -->
+                <div class="row py-4 px-md-5 d-flex justify-content-center align-items-center">
+                    <!-- الخدمة الأولى -->
+                    <div class="col-md-4 col-sm-12 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card p-3">
+                            <div class="icon-wrapper mb-3" data-aos="zoom-in" data-aos-delay="400">
+                                <i class="fa-solid fa-pepper-hot fs-1 text-center service-icon"></i>
+                            </div>
+                            <h3 class="head text-center fw-bold mb-3">Healthy Foods</h3>
+                            <div class="content text-center text-secondary">
+                                Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                unorthographic.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- الخدمة الثانية -->
+                    <div class="col-md-4 col-sm-12 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-card p-3">
+                            <div class="icon-wrapper mb-3" data-aos="zoom-in" data-aos-delay="600">
+                                <i class="fa-solid fa-person-biking fs-1 text-center service-icon"></i>
+                            </div>
+                            <h3 class="head text-center fw-bold mb-3">Fastest Delivery</h3>
+                            <div class="content text-center text-secondary">
+                                Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                unorthographic.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- الخدمة الثالثة -->
+                    <div class="col-md-4 col-sm-12 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="700">
+                        <div class="service-card p-3">
+                            <div class="icon-wrapper mb-3" data-aos="zoom-in" data-aos-delay="800">
+                                <i class="fa-solid fa-pizza-slice fs-1 text-center service-icon"></i>
+                            </div>
+                            <h3 class="head text-center fw-bold mb-3">Original Recipes</h3>
+                            <div class="content text-center text-secondary">
+                                Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                unorthographic.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----end of service section---->
+    <!---------- الكود باظ تانى خالص هابطل اتكلم عنه -------------->
+    <!-- Hot Pizza Meals Section -->
+
+    <section>
+        <div class="hot-pizza-section">
+            <div class="pizza-img" style="background-image: url('image/d.jpg');">
+                <div class="container-fluid">
+                    <!-- العنوان الرئيسي -->
+                    <div class="text p-3 mb-5 text-center text-light">
+                        <div class="head fs-1 fw-bold mb-3" data-aos="fade-up" data-aos-delay="100">
+                            Hot Pizza Meals
+                        </div>
+                        <div class="bar fs-6 text-secondary  text-secondary" data-aos="fade-up" data-aos-delay="200">
+                            Far far away, behind the word mountains, far from the countries Vokalia<br>
+                            and Consonantia, there live the blind texts.
+                        </div>
+                    </div>
+
+                    <!-- الصف الأول من الكارادز -->
+                    <div class="row row-one justify-content-center ">
+                        <!-- كارت 1 -->
+                        <div class="col-md-2 col-sm-6 px-1">
+                            <div class="pizza-card h-100  text-start d-flex flex-column" data-aos="zoom-in"
+                                data-aos-delay="300">
+                                <div class="img-wrapper ">
+                                    <img src="image/piz1.jpg" class="img-fluid " alt="Italian Pizza">
+                                </div>
+                            </div>
+                        </div>
+                        <!---content of card one basic card    ------ <  hona   > -->
+                        <div class="col-md-2 col-sm-6 px-1"
+                            style="background-image: url(image/bgd.jpg); height: 180px;">
+                            <div class="container py-2">
+
+                                <h5 class="pizza-name fw-bold text-light img">Greek Pizza</h5>
+                                <p class="pizza-des text-secondary flex-fill text-secondary"
+                                    style="font-size: 0.85rem;">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia.
+                                </p>
+                                <div class="pizza-price mt-1 d-flex align-items-center gap-3">
+                                    <span class="text-light">$2.90</span>
+                                    <a class="btn btn-outline-warning btn-sm  w-30 rounded-0 ">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- كارت 2 -->
+                        <div class="col-md-2 col-sm-6 px-1 ">
+                            <div class="pizza-card h-100  text-center d-flex flex-column" data-aos="zoom-in"
+                                data-aos-delay="400">
+                                <div class="img-wrapper mb-3">
+                                    <img src="image/piz2jpg.jpg" class="img-fluid  " alt="Pepperoni Pizza">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--- cardddddddddddddddd 3  -->
+                        <div class="col-md-2 col-sm-6 px-1" style="background-image: url(image/bgd.jpg); height: 180px;"
+                            data-aos-delay="800">
+                            <div class="container py-2">
+
+                                <h5 class="pizza-name fw-bold text-light img">Italian Pizza</h5>
+                                <p class="pizza-des text-secondary flex-fill text-secondary"
+                                    style="font-size: 0.85rem;">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia.
+                                </p>
+                                <div class="pizza-price mt-1 d-flex align-items-center gap-3">
+                                    <span class="text-light">$2.90</span>
+                                    <a class="btn btn-outline-warning btn-sm  w-30 rounded-0 ">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- كارت 4 -->
+                        <div class="col-md-2 col-sm-6 px-1">
+                            <div class="pizza-card h-100  text-center d-flex flex-column" data-aos="zoom-in"
+                                data-aos-delay="500">
+                                <div class="img-wrapper mb-3">
+                                    <img src="image/pizz3.jpg" class="img-fluid" alt="Margherita Pizza">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--card 5-->
+                        <div class="col-md-2 col-sm-6 px-1" style="background-image: url(image/bgd.jpg); height: 180px;"
+                            data-aos-delay="800">
+                            <div class="container py-2">
+
+                                <h5 class="pizza-name fw-bold text-light img">ICaucasian Pizza</h5>
+                                <p class="pizza-des text-secondary flex-fill text-secondary"
+                                    style="font-size: 0.85rem;">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia.
+                                </p>
+                                <div class="pizza-price mt-1 d-flex align-items-center gap-3">
+                                    <span class="text-light">$2.90</span>
+                                    <a class="btn btn-outline-warning btn-sm  w-30 rounded-0 ">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--------------------second safff      ------------------->
+                <div class="row row-one justify-content-center ">
+                    <!--------------------------------- كارت 1 -------------------------------------->
+                    <div class="col-md-2 col-sm-6 px-1" style="background-image: url(image/bgd.jpg); height: 180px;"
+                        data-aos-delay="800">
+                        <div class="container py-2 text-start ">
+
+                            <h5 class="pizza-name  text-light img">American Pizza</h5>
+                            <p class="pizza-des text-secondary flex-fill text-secondary" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                            <div class="pizza-price mt-1 d-flex align-items-center gap-3">
+                                <span class="text-light">$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm  w-30 rounded-0 ">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------------------------------2  content of card one basic card ------------   ------ <  hona   > --->
+
+                    <div class="col-md-2 col-sm-6 px-1">
+                        <div class="pizza-card h-100 text-center d-flex flex-column" data-aos="zoom-in"
+                            data-aos-delay="600">
+                            <div class="img-wrapper mb-3">
+                                <img src="image/piz4jpg.jpg" class="img-fluid" alt="Hawaiian Pizza">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--------------------------------------- كارت 3 ----------------------------------->
+                    <div class="col-md-2 col-sm-6 px-1" style="background-image: url(image/bgd.jpg); height: 180px;">
+                        <div class="container py-2">
+
+                            <h5 class="pizza-name fw-bold text-light img">Tomatoe Pie</h5>
+                            <p class="pizza-des text-secondary flex-fill text-secondary" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                            <div class="pizza-price mt-1 d-flex align-items-center gap-3">
+                                <span class="text-light">$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm  w-30 rounded-0 ">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
 
 
 
 
 
+                    <!----------------------------- card 4-------------------------------->
+
+
+                    <div class="col-md-2 col-sm-6 px-1">
+                        <div class="pizza-card h-100 text-center d-flex flex-column" data-aos="zoom-in"
+                            data-aos-delay="700">
+                            <div class="img-wrapper mb-3">
+                                <img src="image/pizz5jpg.jpg" class="img-fluid" alt="Veggie Pizza">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!------------------------------------------------- كارت 5 ---------------------------------------->
+                    <div class="col-md-2 col-sm-6 px-1" data-aos-delay="800"
+                        style="background-image: url(image/bgd.jpg); height: 180px;">
+                        <div class="container py-2">
+
+                            <h5 class="pizza-name fw-bold text-light img">Margherita</h5>
+                            <p class="pizza-des text-secondary flex-fill text-secondary" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and
+                                Consonantia.
+                            </p>
+                            <div class="pizza-price mt-1 d-flex align-items-center gap-3">
+                                <span class="text-light">$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm  w-30 rounded-0 ">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
 
 
 
+                    <!-----------------------------card 6------------------->
+
+
+                    <div class="col-md-2 col-sm-6 px-0">
+                        <div class="pizza-card  text-center d-flex flex-column" data-aos="zoom-in" data-aos-delay="800">
+                            <div class="img-wrapper mb-3">
+                                <img src="image/piz6jpg.jpg" class="img-fluid" alt="Meat Lover's">
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
 
+    </section>
+
+    <!-----------------------end of the section hot pizza---------------------------------->
+
+
+    <section>
+        <div class="pizza-img" style="background-image: url(image/d.jpg);">
+            <div class="container-fluid">
+                <!-- العنوان الرئيسي والوصف -->
+                <div class="text p-3 mb-5 text-center " data-aos="fade-up" data-aos-duration="1000">
+                    <div class="head fw-bold mb-3 mt-0 text-light">
+                        OUR MENU PRICING
+                    </div>
+                    <div class="text-decoration" data-aos="zoom-in" data-aos-delay="300"></div> <!-- الديكور الذهبي -->
+                    <div class="bar" data-aos="fade-up" data-aos-delay="200">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.
+                    </div>
+                </div>
+
+                <div class="row justify-content-center gx-0 gy-4">
+                    <!-- العمود الأول -->
+                    <div class="col-md-6" data-aos="fade-right" data-aos-offset="150" data-aos-duration="1000">
+                        <!-- Italian Pizza -->
+                        <div class="menu-item">
+                            <img src="image/piz1.jpg" alt="Italian Pizza">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Italian Pizza</span>
+                                    <span class="dotted-line"></span>
+                                    <span class="menu-item-price">\$20.00</span>
+                                </div>
+                                <p class="menu-item-description">A small river named Duden flows by their place and
+                                    supplies.</p>
+                            </div>
+                        </div>
+
+                        <!-- Hawaiian Pizza -->
+                        <div class="menu-item">
+                            <img src="image/piz2jpg.jpg" alt="Hawaiian Pizza">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Hawaiian Pizza</span>
+                                    <span class="dotted-line"></span>
+                                    <span class="menu-item-price">\$29.00</span>
+                                </div>
+                                <p class="menu-item-description">A small river named Duden flows by their place and
+                                    supplies.</p>
+                            </div>
+                        </div>
+
+                        <!-- Greek Pizza -->
+                        <div class="menu-item">
+                            <img src="image/pizz3.jpg" alt="Greek Pizza">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Greek Pizza</span>
+                                    <span class="dotted-line"></span>
+                                    <span class="menu-item-price">\$20.00</span>
+                                </div>
+                                <p class="menu-item-description">A small river named Duden flows by their place and
+                                    supplies.</p>
+                            </div>
+                        </div>
+
+                        <!-- Bacon Crispy Thins -->
+                        <div class="menu-item">
+                            <img src="image/piz4jpg.jpg" alt="Bacon Crispy Thins">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Bacon Crispy Thins</span>
+                                    <span class="dotted-line"></span>
+                                    <span class="menu-item-price">\$20.00</span>
+                                </div>
+                                <p class="menu-item-description">A small river named Duden flows by their place and
+                                    supplies.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- العمود الثاني -->
+                    <div class="col-md-6" data-aos="fade-left" data-aos-offset="150" data-aos-duration="1000">
+                        <!-- Hawaiian Special -->
+                        <div class="menu-item">
+                            <img src="image/pizz5jpg.jpg" alt="Hawaiian Special">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Hawaiian Special</span>
+                                    <span class="dotted-line"></span>
+                                    <span class="menu-item-price">\$49.90</span>
+                                </div>
+                                <p class="menu-item-description">A small river named Duden flows by their place and
+                                    supplies.</p>
+                            </div>
+                        </div>
+
+                        <!-- Ultimate Overload -->
+                        <div class="menu-item">
+                            <img src="image/pizz5jpg.jpg" alt="Ultimate Overload">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Ultimate Overload</span>
+                                    <span class="dotted-line"></span>
+                                    <span class="menu-item-price">\$20.00</span>
+                                </div>
+                                <p class="menu-item-description">A small river named Duden flows by their place and
+                                    supplies.</p>
+                            </div>
+                        </div>
+
+                        <!-- Bacon Pizza -->
+                        <div class="menu-item">
+                            <img src="image/piz6jpg.jpg" alt="Bacon Pizza">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Bacon Pizza</span>
+                                    <span class="dotted-line"></span>
+                                    <span class="menu-item-price">\$20.00</span>
+                                </div>
+                                <p class="menu-item-description">A small river named Duden flows by their place and
+                                    supplies.</p>
+                            </div>
+                        </div>
+
+                        <!-- Ham & Pineapple -->
+                        <div class="menu-item">
+                            <img src="image/piz1.jpg" alt="Ham & Pineapple">
+                            <div class="menu-item-details">
+                                <div class="menu-item-name">
+                                    <span>Ham & Pineapple</span>
+                                    <span class="dotted-line"></span>
+                                    <span class="menu-item-price">\$20.00</span>
+                                </div>
+                                <p class="menu-item-description">A small river named Duden flows by their place and
+                                    supplies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------end of section decoration meals--------------------------------->
+    <!----------------------------start of section client------------------------------------->
+
+    <section class="client-section">
+        <div class="container-fluid p-0">
+            <div class="row g-0"> <!-- إزالة المسافات بين الأعمدة -->
+
+                <div class="col-12 col-md-6 col-lg-3 p-0">
+                    <div class="client-logos">
+                        <img src="image/n1.jpg" class="img-fluid" alt="">
+                        <div class="image-overlay">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 p-0">
+                    <div class="client-logos">
+                        <img src="image/n2.png" class="img-fluid" alt="">
+                        <div class="image-overlay">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 p-0">
+                    <div class="client-logos">
+                        <img src="image/n3.jpg" class="img-fluid" alt="">
+                        <div class="image-overlay">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 p-0">
+                    <div class="client-logos">
+                        <img src="image/m4.jpg" class="img-fluid" alt="">
+                        <div class="image-overlay">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------end of section client--------------------------------->
+
+
+    <!------------------  start of section toggle-------------->
+
+    <section class="">
+        <div class="row g-0">
+            <!-- اليسار: صورة الخلفية -->
+            <div class="col-md-4 col-sm-12" style="background-image: url('image/Bi.png'); 
+            background-size: cover; background-position: center; min-height: 500px;">
+            </div>
+
+            <!-- اليمين: الأزرار والكروت (تم تغيير العرض هنا) -->
+            <div class="col-md-8 col-sm-12 p-5"
+                style="background-image: url('image/d.jpg'); background-size: cover; background-position: center; min-height: 500px;">
+
+                <!-- الأزرار -->
+                <div class="d-flex justify-content-center mb-5 flex-wrap gap-2">
+                    <button class="btn btn-warning active" data-category="category1">Pizza</button>
+                    <button class="btn btn-outline-warning" data-category="category2">Burger</button>
+                    <button class="btn btn-outline-warning" data-category="category3">Drink</button>
+                    <button class="btn btn-outline-warning" data-category="category4">Pasta</button>
+                </div>
+
+                <!-- حاوية الكروت -->
+                <div id="cards-container">
+
+                    <!-- 🍕 Category 1: Pizza -->
+                    <!-- (تم تغيير عرض الأعمدة هنا من col-md-9 إلى col-md-4 لتظهر الكروت بجانب بعضها) -->
+                    <div id="category1" class="row g-4 category-group">
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <!-- (تم تعديل استايل الصورة هنا) -->
+                                <img src="image/piz1.jpg" class="card-img-top img-fluid rounded-circle p-3 mx-auto"
+                                    alt="Pizza" style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body p-3">
+                                    <h5 class="card-title ">Italian Pizza</h5>
+                                    <p class="card-text fs-6">Far far away, behind the word mountains, far from the
+                                        countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$2.90</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <!-- (تم تعديل استايل الصورة هنا) -->
+                                <img src="image/piz2jpg.jpg" class="card-img-top img-fluid rounded-circle p-3 mx-auto"
+                                    alt="Pizza" style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body p-3">
+                                    <h5 class="card-title">Italian Pizza</h5>
+                                    <p class="card-text fs-6">Far far away, behind the word mountains, far from the
+                                        countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$2.90</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <!-- (تم تعديل استايل الصورة هنا) -->
+                                <img src="image/pizz3.jpg" class="card-img-top img-fluid rounded-circle p-3 mx-auto"
+                                    alt="Pizza" style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body p-3">
+                                    <h5 class="card-title">Italian Pizza</h5>
+                                    <p class="card-text fs-6">Far far away, behind the word mountains, far from the
+                                        countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$2.90</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 🍔 Category 2: Burger -->
+                    <div id="category2" class="row g-4 category-group d-none">
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <img src="image/bur1.jpg" class="card-img-top rounded-circle p-3 mx-auto" alt="Burger"
+                                    style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Juicy Burger</h5>
+                                    <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$5.50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <img src="image/bur2.jpg" class="card-img-top rounded-circle p-3 mx-auto" alt="Burger"
+                                    style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cheese Burger</h5>
+                                    <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$6.20</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <img src="image/bur3.jpg" class="card-img-top rounded-circle p-3 mx-auto" alt="Burger"
+                                    style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bacon Burger</h5>
+                                    <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$6.90</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 🥤 Category 3: Drink -->
+                    <div id="category3" class="row g-4 category-group d-none">
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <img src="image/l1.jpg" class="card-img-top rounded-circle p-3 mx-auto" alt="Juice"
+                                    style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lemonade Juice</h5>
+                                    <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$2.90</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <img src="image/l2.jpg" class="card-img-top rounded-circle p-3 mx-auto" alt="Juice"
+                                    style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pineapple Juice</h5>
+                                    <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$2.90</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <img src="image/l3.jpg" class="card-img-top rounded-circle p-3 mx-auto" alt="Soda"
+                                    style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Soda Drinks</h5>
+                                    <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$2.90</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 🍝 Category 4: Pasta -->
+                    <div id="category4" class="row g-4 category-group d-none">
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <img src="image/pas1.jpg" class="card-img-top rounded-circle p-3 mx-auto" alt="Pasta"
+                                    style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Italian Pasta</h5>
+                                    <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$3.50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <img src="image/pas2.jpg" class="card-img-top rounded-circle p-3 mx-auto" alt="Pasta"
+                                    style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fettuccine Alfredo</h5>
+                                    <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$3.90</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center shadow-sm border-0">
+                                <img src="image/pas3.jpg" class="card-img-top rounded-circle p-3 mx-auto" alt="Pasta"
+                                    style="width: 150px; height:150px; object-fit:cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Seafood Pasta</h5>
+                                    <p class="card-text">Far far away, behind the word mountains, far from the countries
+                                        Vokalia and Consonantia.</p>
+                                    <p class="fw-bold text-warning">\$4.20</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------  end of section toggle-------------->
+
+    <!-------------------- section for blogd ------------------->
+    <section>
+        <div class="pizza-img"
+            style="background-image: url(image/d.jpg); background-size: cover; background-position: center;">
+            <div class="container-fluid">
+                <!-- العنوان الرئيسي والوصف -->
+                <div class="text p-3 mb-5 text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="head fw-bold mb-3 mt-0 text-light">
+                        Recent from blog
+                    </div>
+                    <div class="text-white" data-aos="zoom-in" data-aos-delay="300"></div>
+                    <div class="bar-blog text-light" data-aos="fade-up" data-aos-delay="200">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts
+                    </div>
+                </div>
+
+                <!-- 🍕 Category 1: Pizza -->
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center shadow-sm border-0 bg-dark bg-opacity-50 text-light">
+                            <!-- صورة -->
+                            <img src="image/piz1.jpg" class="card-img-top img-fluid rounded-circle mx-auto mt-3"
+                                alt="Pizza" style="width: 150px; height:150px; object-fit:cover;">
+                            <div class="card-body">
+                                <!-- رابط العنوان -->
+                                <h5 class="card-title">
+                                    <a href="#menu-buttons" class="text-warning text-decoration-none">The Delicious
+                                        Pizza</a>
+                                </h5>
+                                <p class="card-text fs-6">
+                                    A small river named Duden flows by their place <br> and supplies it with the
+                                    necessary regelialia..
+                                </p>
+                                <p class="fw-bold text-warning">\$2.90</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center shadow-sm border-0 bg-dark bg-opacity-50 text-light">
+                            <img src="image/pas1.jpg" class="card-img-top img-fluid rounded-circle mx-auto mt-3"
+                                alt="Pasta" style="width: 150px; height:150px; object-fit:cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="#menu-buttons" class="text-warning text-decoration-none">The Delicious
+                                        Pasta</a>
+                                </h5>
+                                <p class="card-text fs-6">
+                                    A small river named Duden flows by their place <br> and supplies it with the
+                                    necessary regelialia..
+                                </p>
+                                <p class="fw-bold text-warning">\$2.90</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center shadow-sm border-0 bg-dark bg-opacity-50 text-light">
+                            <img src="image/bur1.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Burger"
+                                style="width: 150px; height:150px; object-fit:cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="#menu-buttons" class="text-warning text-decoration-none">The Delicious
+                                        Burger</a>
+                                </h5>
+                                <p class="card-text fs-6">
+                                    A small river named Duden flows by their place <br> and supplies it with the
+                                    necessary regelialia.
+                                </p>
+                                <p class="fw-bold text-warning">\$2.90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------end of menu section--------------------------->
+
+    <!-----------------footer section ---------------------->
+    <footer>
+        <div class=" py-5 px-5 mt-0 g-0 mb-0 h-auto">
+            <div class="row container-fluid d-flex justify-content-around">
+                <div class="col-md-3 col-sm-6">
+                    <div class="card d-flex alighn-item-start border-0 h-100">
+                        <div class="card-body">
+                            <div class="card-title">
+                                About Us
+                            </div>
+                            <div class="card-text ">
+                                <p>
+                                    Far far away, behind the word mountains,
+                                    far from the countries Vokalia and Consonantia,
+                                    there live the blind texts.
+                                </p>
+                                <div>
+                                    <div class="social-box ">
+                                        <div class="social-icon"><i class="fa-brands fa-facebook-f fs-5"></i></div>
+                                        <div class="social-icon"><i class="fa-brands fa-twitter fs-5"></i></div>
+                                        <div class="social-icon"><i class="fa-brands fa-instagram fs-5"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
 
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card d-flex alighn-item-start border-0 h-100">
+                        <div class="card-body">
+                            <div class="card-title">
+                                Recent Blog
+                            </div>
+                            <div class="card-text custom-image-list gap-5">
+                                <!-- الصورة والنص في صف واحد -->
+                                <div class="row align-items-center mb-4 ">
+                                    <div class="col-auto pe-2">
+                                        <img src="image/piz1.jpg" class="img-fluid rounded-circle list-img"
+                                            alt="Pizza 1">
+                                    </div>
+                                    <div class="col ps-1 text-warning">
+                                        Even the all-powerful Pointing has no control about
+                                    </div>
+                                </div>
 
+                                <div class="row align-items-center mb-2">
+                                    <div class="col-auto pe-2">
+                                        <img src="image/piz2jpg.jpg" class="img-fluid rounded-circle list-img"
+                                            alt="Pizza 2">
+                                    </div>
+                                    <div class="col ps-1 text-warning">
+                                        Even the all-powerful Pointing has no control about
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card d-flex alighn-item-start border-0 h-100">
+                        <div class="card-body">
+                            <div class="card-title">
+                                Services
+                            </div>
+                            <div class="card-text d-flex alighn-items-center flex-column gap-3">
+                                <div class="d-flex align-items-center mb-1">
+                                    <i class="fa-solid fa-check text-light me-2"></i>
+                                    <span>Free Delivery</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-1">
+                                    <i class="fa-solid fa-check text-light me-2"></i>
+                                    <span>24/7 Support</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-1">
+                                    <i class="fa-solid fa-check text-light me-2"></i>
+                                    <span>Online Payment</span>
+                                </div>
+                              <div class="d-flex align-items-center mb-1">
+                                    <i class="fa-solid fa-check text-light me-2"></i>
+                                    <span>Mixed</span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card d-flex alighn-item-start border-0 h-100">
+                        <div class="card-body">
+                            <div class="card-title">
+                                Have a Questions?
+                            </div>
+                            <div class="card-text">
+                                <!-- العنوان: الايقونة والنص في صف واحد -->
+                                <div class="row align-items-center mb-2">
+                                    <div class="col-auto pe-1">
+                                        <i class="fa-solid fa-location-dot text-warning contact-icon"></i>
+                                    </div>
+                                    <div class="col ps-1">
+                                        203 Fake St. Mountain View, San Francisco, California, USA
+                                    </div>
+                                </div>
 
+                                <div class="row align-items-center mb-2">
+                                    <div class="col-auto pe-1">
+                                        <i class="fa-solid fa-phone-volume text-warning contact-icon"></i>
+                                    </div>
+                                    <div class="col ps-1">
+                                        +2 392 3929 210
+                                    </div>
+                                </div>
 
-
-    
-</section>
-
-
-
+                                <div class="row align-items-center">
+                                    <div class="col-auto pe-1">
+                                        <i class="fa-solid fa-envelope text-warning contact-icon"></i>
+                                    </div>
+                                    <div class="col ps-1">
+                                        info@yourdomain.com
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-light">Copyright ©2025 All rights reserved | This template is made with by
+                <span class="text-warning x0"><a href="https://github.com/evehasnaa">Hasnaa AHMed</a></span>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -317,7 +1164,7 @@
 
     <!-- إذا كان لديكِ كود خاص لتشغيل السلايدر، يكون هنا -->
     <script src="js/index.js"></script>
-<!---animation liblary-->
+    <!---animation liblary-->
     <script>
         AOS.init({
             duration: 800,
@@ -325,6 +1172,8 @@
             once: true
         });
     </script>
+
+
 
 </body>
 

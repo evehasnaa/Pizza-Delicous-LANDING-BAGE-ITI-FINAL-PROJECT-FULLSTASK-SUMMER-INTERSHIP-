@@ -4,16 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>services</title>
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/st-home.css">
-    <link rel="stylesheet" href="css/st-menue.css">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Animate.css (اختياري إذا أردتِ تحريك العناصر) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Pacifico script -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- OR Great Vibes -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!--- مكتبة الانيميشن الخاصة بالبوتسراب -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- ملف التنسيق الخاص بك -->
+    <link rel="stylesheet" href="css/st-home.css">
+     <link rel="stylesheet" href="css/st-menue.css">
 </head>
 
 <body>
@@ -22,7 +43,7 @@
         <div class="container-fluid d-flex justify-content-center ps-5 pe-5">
 
             <div class=" d-flex  container-fluid" id="menueId">
-                <a class="navbar-brand" href="#home">
+                <a class="navbar-brand" href="home.html">
                     <i class="fas fa-pizza-slice"></i>
                     <span>Pizza</span> <br>
                     <small>Delicous</small>
@@ -39,12 +60,12 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav  ms-auto  mb-lg-0">
-                    <li class="nav-item"><a class="nav-link " aria-current="page" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#menue">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#srvices">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link " aria-current="page" href="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menue.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="srvices.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -76,6 +97,51 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    <!-- jQuery أولاً -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- إذا كان لديكِ كود خاص لتشغيل السلايدر، يكون هنا -->
+    <script src="js/index.js"></script>
+    <!---animation liblary-->
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+
 
 </body>
 

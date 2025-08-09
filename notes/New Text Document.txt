@@ -1,0 +1,339 @@
+<section>
+    <div class="hot-pizza-section">
+        <!-- الخلفية -->
+        <div class="pizza-img" style="background-image: url('image/d.jpg');">
+            <div class="container-fluid px-0">
+                
+                <!-- العنوان -->
+                <div class="text p-3 mb-5 text-center text-light">
+                    <div class="head fs-1 fw-bold mb-3" data-aos="fade-up" data-aos-delay="100">
+                        Hot Pizza Meals
+                    </div>
+                    <div class="bar fs-6 text-secondary" data-aos="fade-up" data-aos-delay="200">
+                        Far far away, behind the word mountains, far from the countries Vokalia<br>
+                        and Consonantia, there live the blind texts.
+                    </div>
+                </div>
+
+                <!-- الصف الأول: 6 كروت -->
+                <div class="row g-0 justify-content-center">
+                    <!-- كارت 1 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0">
+                        <div class="pizza-card h-100" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="image/piz1.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Italian Pizza">
+                        </div>
+                    </div>
+
+                    <!-- كارت 2 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0 position-relative" style="background-image: url('image/bgd.jpg'); background-size: cover; height: 180px;">
+                        <div class="p-2 h-100 d-flex flex-column justify-content-center text-light">
+                            <h5 class="pizza-name fw-bold mb-1">Greek Pizza</h5>
+                            <p class="pizza-des text-secondary mb-2" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                            <div class="pizza-price d-flex align-items-center gap-2 mt-auto">
+                                <span>$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm rounded-0" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- كارت 3 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0">
+                        <div class="pizza-card h-100" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="image/piz2jpg.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Pepperoni Pizza">
+                        </div>
+                    </div>
+
+                    <!-- كارت 4 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0 position-relative" style="background-image: url('image/bgd.jpg'); background-size: cover; height: 180px;">
+                        <div class="p-2 h-100 d-flex flex-column justify-content-center text-light">
+                            <h5 class="pizza-name fw-bold mb-1">Italian Pizza</h5>
+                            <p class="pizza-des text-secondary mb-2" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                            <div class="pizza-price d-flex align-items-center gap-2 mt-auto">
+                                <span>$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm rounded-0" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- كارت 5 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0">
+                        <div class="pizza-card h-100" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="image/pizz3.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Margherita Pizza">
+                        </div>
+                    </div>
+
+                    <!-- كارت 6 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0 position-relative" style="background-image: url('image/bgd.jpg'); background-size: cover; height: 180px;">
+                        <div class="p-2 h-100 d-flex flex-column justify-content-center text-light">
+                            <h5 class="pizza-name fw-bold mb-1">Caucasian Pizza</h5>
+                            <p class="pizza-des text-secondary mb-2" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                            <div class="pizza-price d-flex align-items-center gap-2 mt-auto">
+                                <span>$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm rounded-0" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- الصف الثاني: 6 كروت -->
+                <div class="row g-0 justify-content-center mt-0">
+                    <!-- كارت 7 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0 position-relative" style="background-image: url('image/bgd.jpg'); background-size: cover; height: 180px;">
+                        <div class="p-2 h-100 d-flex flex-column justify-content-center text-light">
+                            <h5 class="pizza-name fw-bold mb-1">American Pizza</h5>
+                            <p class="pizza-des text-secondary mb-2" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                            <div class="pizza-price d-flex align-items-center gap-2 mt-auto">
+                                <span>$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm rounded-0" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- كارت 8 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0">
+                        <div class="pizza-card h-100" data-aos="zoom-in" data-aos-delay="600">
+                            <img src="image/piz4jpg.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Hawaiian Pizza">
+                        </div>
+                    </div>
+
+                    <!-- كارت 9 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0 position-relative" style="background-image: url('image/bgd.jpg'); background-size: cover; height: 180px;">
+                        <div class="p-2 h-100 d-flex flex-column justify-content-center text-light">
+                            <h5 class="pizza-name fw-bold mb-1">Tomato Pie</h5>
+                            <p class="pizza-des text-secondary mb-2" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                            <div class="pizza-price d-flex align-items-center gap-2 mt-auto">
+                                <span>$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm rounded-0" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- كارت 10 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0">
+                        <div class="pizza-card h-100" data-aos="zoom-in" data-aos-delay="700">
+                            <img src="image/pizz5jpg.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Veggie Pizza">
+                        </div>
+                    </div>
+
+                    <!-- كارت 11 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0 position-relative" style="background-image: url('image/bgd.jpg'); background-size: cover; height: 180px;">
+                        <div class="p-2 h-100 d-flex flex-column justify-content-center text-light">
+                            <h5 class="pizza-name fw-bold mb-1">Margherita</h5>
+                            <p class="pizza-des text-secondary mb-2" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                            <div class="pizza-price d-flex align-items-center gap-2 mt-auto">
+                                <span>$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm rounded-0" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- كارت 12 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0">
+                        <div class="pizza-card h-100" data-aos="zoom-in" data-aos-delay="800">
+                            <img src="image/piz6jpg.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Meat Lover's Pizza">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+profile
+Qwen3-235B-A22B-2507
+11:02 pm
+فهمت تمامًا الآن، وشكرًا على التوضيح 💯
+هنتعامل مع كل نقطة بتركيز.
+
+✅ الهدف النهائي:
+XL / LG (كبيرة)
+6 كروت في السطر
+صفين
+ثابت (6 + 6)
+MD (متوسطة - تابلت)
+4 كروت في السطر
+3 صفوف
+يتوسع/ينكمش بسلاسة
+SM / XS (صغيرة جدًا)
+2 كروت في السطر
+6 صفوف
+متجاوب
+✅
+مهم
+: التصميم لا "يبوظ" عند التمدد أو الانكماش، ويكون منسق وثابت.
+
+✅ ملاحظة: عندك 12 كارت → فـ 12 ÷ 6 = 2 صفوف (في اللارج)، و12 ÷ 4 = 3 صفوف (في الميديوم)، و12 ÷ 2 = 6 صفوف (في الصغيرة) 
+
+✅ الحل: استخدام col-lg-2 + col-md-3 + col-sm-6
+col-lg-2
+1/6 من الصف → 6 كروت في السطر
+col-md-3
+1/4 من الصف → 4 كروت في السطر
+col-sm-6
+1/2 من الصف → 2 كروت في السطر
+
+✅ w-100 داخليًا مش هينشّط إلا لو نحتاجه، وبنستخدم flex و g-0 علشان كل حاجة تتمدد في مكانها. 
+
+✅ الكود المعدل كله (جاهز للنسخ – متجاوب – منسق – لا يبوظ)
+html
+
+
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+⌄
+⌄
+⌄
+⌄
+⌄
+⌄
+<section>
+                    </div>
+
+                    <!-- كارت 11 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0 position-relative" style="background-image: url('image/bgd.jpg'); background-size: cover; height: 180px;">
+                        <div class="p-2 h-100 d-flex flex-column justify-content-center text-light">
+                            <h5 class="pizza-name fw-bold mb-1">Margherita</h5>
+                            <p class="pizza-des text-secondary mb-2" style="font-size: 0.85rem;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                            </p>
+                            <div class="pizza-price d-flex align-items-center gap-2 mt-auto">
+                                <span>$2.90</span>
+                                <a class="btn btn-outline-warning btn-sm rounded-0" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- كارت 12 -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 px-0">
+                        <div class="pizza-card h-100" data-aos="zoom-in" data-aos-delay="800">
+                            <img src="image/piz6jpg.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Meat Lover's Pizza">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+✅ كيف يظهر التصميم؟
+Large (≥992px)
+6
+2
+ثابت، لا يتغير
+Medium (≥768px)
+4
+3
+يتحول تلقائيًا بدون مشاكل
+Small (≥576px)
+2
+6
+متجاوب تمامًا
+Extra Small (<576px)
+2
+6
+نفس small
+
+✅ التعديلات المهمة
+col-lg-2
+6 كروت في السطر على الشاشات الكبيرة
+col-md-3
+4 كروت في السطر على التابلت
+col-sm-6
+2 كروت في السطر على الموبايل
+g-0
+يلغي الفواصل بين الكروت
+px-0
+يلغي البادنج الجانبي
+h-100
++
+object-fit: cover
+يحافظ على ارتفاع ثابت للصور
+mt-0
+يلغي المسافة بين الصفوف
+
+✅ هل التصميم يتمدد وينكمش في مكانه؟
+✅ نعم، لأن:
+
+الكروت مرتبة في صفوف منطقية (6 + 6).
+استخدام justify-content-center يجعل التوزيع مركزي ومنظم.
+لا يوجد flex-wrap إضافي، والتحويل بين الأحجام يتم بسلاسة عبر Bootstrap Grid.
+✅ نصيحة أخيرة:
+لو حابّة تتأكد أن الصور تظهر بجودة عالية:
+
+خلي كل صورة أصلية بحد أدنى 360px عرض.
+استخدم صيغة WebP إن أمكن.
+اختصر حجم الصور بـ TinyPNG .
+
+
+col-6
+في الموبايل الصغير: 2 كارت في السطر
+col-sm-4
+من 576px: 3 كروت في السطر
+col-md-3
+من 768px: 4 كروت في السطر
+col-lg-2
+من 992px: 5 كروت في السطر
+px-0
+يلغي البادنج الجانبي بين الكروت
+g-0
+يلغي الـ gap بين الأعمدة
+h-100
+يجعل الارتفاع كامل
+img-fluid
++
+h-100
++
+object-fit: cover
+يحافظ على تناسق الصورة بدون تشويه
+mt-0
+يلغي المسافة بين الصفوف
+position-relative
++
+position-absolute
+يسمح بوضع النص فوق الصورة
